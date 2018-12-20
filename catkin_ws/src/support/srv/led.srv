@@ -1,0 +1,12 @@
+# Type of blinking
+# 1: rasta, 2: fadeRGB
+int64 type
+# Answer, used for type 2
+int64 answer
+# Duration
+int64 duration
+# Blocking or not? True for blocking, False for not blocking
+bool blocking
+---
+# Feedback - not used
+bool feedback

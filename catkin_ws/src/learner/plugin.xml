@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="Query plugin" type="learner.learner.QueryPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Python GUI plugin for the caal experiment.
+    </description>
+    <qtgui>
+      <label>CAAL Python Plugin</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Plugin for the caal experiment.</statustip>
+    </qtgui>
+  </class>
+</library>

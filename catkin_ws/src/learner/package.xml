@@ -1,0 +1,21 @@
+<package format="2">
+  <name>learner</name>
+  <version>0.0.0</version>
+  <description>GUI and learner for the caal experiment</description>
+
+  <author email="mattia.racca@aalto.fi">Mattia Racca</author>
+  <maintainer email="mattia.racca@aalto.fi">Mattia Racca</maintainer>
+
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <!-- <exec_depend>learner_support</exec_depend> -->
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

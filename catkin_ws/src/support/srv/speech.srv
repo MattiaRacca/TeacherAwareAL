@@ -1,0 +1,9 @@
+# Sentence to be said
+string sentence
+# Body language or not? default is False
+bool bodylanguage
+# Blocking or not? True for blocking, False for not blocking
+bool blocking
+---
+# Feedback - not used
+bool feedback

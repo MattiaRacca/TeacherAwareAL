@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="Control plugin" type="control_gui.control_gui.ControlPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Python GUI plugin for the control of the caal experiment.
+    </description>
+    <qtgui>
+      <label>CAAL Control Python Plugin</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Plugin for the control caal experiment.</statustip>
+    </qtgui>
+  </class>
+</library>

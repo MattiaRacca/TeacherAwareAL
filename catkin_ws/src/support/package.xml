@@ -1,0 +1,16 @@
+<package format="2">
+  <name>support</name>
+  <version>0.0.0</version>
+  <description>Message definition, config and launch the caal experiment</description>
+
+  <author email="mattia.racca@aalto.fi">Mattia Racca</author>
+  <maintainer email="mattia.racca@aalto.fi">Mattia Racca</maintainer>
+
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+</package>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyPluginWidget</class>
+ <widget class="QWidget" name="MyPluginWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>10</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>Pick the experiment order:</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QLineEdit" name="name_text"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QRadioButton" name="r123">
+            <property name="text">
+             <string>123</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="r132">
+            <property name="text">
+             <string>132</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="r213">
+            <property name="text">
+             <string>213</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="r231">
+            <property name="text">
+             <string>231</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="r312">
+            <property name="text">
+             <string>312</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="r321">
+            <property name="text">
+             <string>321</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="finnish_box">
+          <property name="text">
+           <string>Finnish help</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="startButton">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Start experiment</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="skip_box">
+       <property name="title">
+        <string>Skip Phases</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QRadioButton" name="skip0">
+          <property name="text">
+           <string>Skip Training</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="skip1">
+          <property name="text">
+           <string>Skip 1 phase</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="skip2">
+          <property name="text">
+           <string>Skip 2 phase</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

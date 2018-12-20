@@ -1,0 +1,9 @@
+experiment_intro: "Hello!\\eos=1\\ My name is Nemo! \\eos=1\\ Nice to meet you. \\pau=1000\\ I am learning about animals and their characteristics.\\eos=1\\ Since you are an expert about animals,\\eos=1\\ I will ask you some questions.\\pau=1000\\ Learning is really difficult for a robot \\pau=1000\\ For learning, \\eos=1\\ I have three strategies.\\pau=700\\ In this experiment,\\eos=1\\ I want to figure out which sdtrategy works best for the two of us!\\pau=1000\\ Please, press Enter on the keyboard when you are ready to start."
+
+training_intro: "Before the experiment,\\eos=1\\ I want to show you how to answer my questions with a simple training task.\\eos=1\\ I will ask you whether some animals are mammals or not."
+
+teaching_intro: "Let's start the experiment!\\pau=2000\\ I will use three different learning strategies and see which one works best for us.\\eos=1\\ Depending on the strategies, my way of choosing the questions will change.\\eos=1\\ The order in which questions are asked is also important. \\pau=1500\\ Press Enter when you are ready to go."
+
+teaching_continuation: "Let's continue the teaching session.\\eos=1\\ I will now use another strategy for picking the questions.\\pau=1000\\ Press Enter when you are ready."
+
+experiment_outro: "Thank you very much for your help and patience!\\eos=1\\ I learned a lot about animals, \\eos=1\\ and maybe now I know which learning strategy is best.\\pau=2000\\ Thanks again! \\eos=1\\ Bye!"

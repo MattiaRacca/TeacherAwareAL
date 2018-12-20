@@ -1,0 +1,24 @@
+# experiment_config: [learner1,learner2,learner3]
+# time_bag: seconds for each teaching session in seconds
+
+experiment_config:
+- - 'greedy'
+  - 'similar'
+  - 'hybrid'
+- - 'greedy'
+  - 'hybrid'
+  - 'similar'
+- - 'similar'
+  - 'greedy'
+  - 'hybrid'
+- - 'similar'
+  - 'hybrid'
+  - 'greedy'
+- - 'hybrid'
+  - 'greedy'
+  - 'similar'
+- - 'hybrid'
+  - 'similar'
+  - 'greedy'
+
+time_bag: 10

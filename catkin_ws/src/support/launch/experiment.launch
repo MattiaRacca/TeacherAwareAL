@@ -1,0 +1,11 @@
+<launch>
+<rosparam command="load" file="$(find support)/config/logging_experiment.yaml" />
+<rosparam command="load" file="$(find support)/config/experiment_pilot.yaml" />
+<rosparam command="load" file="$(find nao_interface)/config/nao_utterances.yaml" />
+
+<param name="nao_IP" type="string" value="192.168.0.9" />
+
+<node name="learner_gui" pkg="rqt_gui" type="rqt_gui" args="-s learner" />
+<node name="control_gui" pkg="rqt_gui" type="rqt_gui" args="-s control_gui" />
+<node name="nao_interface" pkg="nao_interface" type="nao_interface.py" />
+</launch>
